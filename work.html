@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Work — Ditto Design | Print | Design | Bind</title>
+<meta name="description" content="Browse our recent design, print and branding work — brochures, posters, banners, visiting cards, company profiles and more from Ditto Design, Trichy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+/* ── Office / Infrastructure section ── */
+.office-section{background:var(--bg-soft);padding:80px 0 90px;}
+.office-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px;}
+.office-card{border-radius:var(--radius);overflow:hidden;position:relative;aspect-ratio:4/3;background:#1A0A12;box-shadow:var(--shadow-sm);}
+.office-card img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease;}
+.office-card:hover img{transform:scale(1.05);}
+.office-card .office-label{position:absolute;bottom:0;left:0;right:0;padding:14px 18px;background:linear-gradient(0deg,rgba(26,10,18,0.82),transparent);color:#fff;font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;}
+/* placeholder when no image uploaded yet */
+.office-card.placeholder{background:repeating-linear-gradient(135deg,#2A0E1A,#2A0E1A 14px,#200A14 14px,#200A14 28px);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;}
+.office-card.placeholder::before{content:'📷';font-size:30px;}
+.office-card.placeholder::after{content:attr(data-label);color:#F2C8DA;font-family:'Poppins',sans-serif;font-size:12px;font-weight:600;letter-spacing:.5px;}
+/* stats row */
+.studio-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow-md);margin-top:50px;}
+.studio-stat{padding:32px 24px;border-right:1px solid var(--border);text-align:center;}
+.studio-stat:last-child{border-right:none;}
+.studio-stat strong{display:block;font-family:'Poppins',sans-serif;font-weight:800;font-size:28px;color:var(--purple-600);margin-bottom:4px;}
+.studio-stat span{font-size:13.5px;color:var(--ink-500);}
+@media(max-width:900px){.office-grid{grid-template-columns:repeat(2,1fr);}.studio-stats{grid-template-columns:repeat(2,1fr);}.studio-stat:nth-child(2){border-right:none;}.studio-stat{border-bottom:1px solid var(--border);}.studio-stat:nth-child(3),.studio-stat:last-child{border-bottom:none;}}
+@media(max-width:560px){.office-grid{grid-template-columns:1fr;}}
+/* Work grid image fix */
+.work-card img.work-photo{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;}
+.portfolio-grid .work-card{position:relative;}
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <div class="topbar-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-7.4 7-12a7 7 0 1 0-14 0c0 4.6 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg><span>Trichy, Tamil Nadu</span></div>
+      <div class="topbar-item hide-mobile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><span>Mon – Sat : 10.00 AM – 7.00 PM</span></div>
+    </div>
+    <div class="topbar-right">
+      <a class="topbar-item" href="tel:+919976756627"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2.1Z"/></svg><span>+91 99767 56627</span></a>
+      <div class="topbar-socials">
+        <a href="https://www.facebook.com/profile.php?id=61575481477857" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12Z"/></svg></a>
+        <a href="https://www.instagram.com/dittodesign.2018?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="https://wa.me/919976756627" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3a8.2 8.2 0 1 1 6.9 3.7Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.2.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.8 2.8 4.4 3.8.6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3Z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="Ditto Design — Designing &amp; Documentation" class="site-logo">
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="index.html#about" class="nav-link">About Us</a>
+      <a href="index.html#services" class="nav-link">Services</a>
+      <a href="work.html" class="nav-link active">Our Work</a>
+      <a href="index.html#reviews" class="nav-link">Reviews</a>
+      <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+    <div class="header-actions">
+      <a href="contact.html" class="btn btn-primary desktop-only btn-sm">Get a Quote
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="nav-overlay" id="navOverlay"></div>
+</header>
+
+<!-- PAGE HEADER -->
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumbs">
+      <a href="index.html">Home</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Our Work</span>
+    </nav>
+    <h1>Our Work</h1>
+    <p>Business & Legal Documentation SupportBrochures, posters, banners, visiting cards, company profiles and more — a selection of real jobs from our studio. Filter by category or send us yours.</p>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section" style="padding-top:50px;">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All Work</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+      <button class="filter-btn" data-filter="document">Document</button>
+      <button class="filter-btn" data-filter="print">Print</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+    </div>
+
+    <div class="portfolio-grid">
+
+       <a href="contact.html" class="work-card" data-category="document">
+        <img class="work-photo" src="assets/services/document-services.jpg" alt="Document Scanning & Digitization" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Document Scanning & Digitization</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/brochure-design.jpg" alt="School admission trifold brochure" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>School Admission Brochure</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/poster-business.jpg" alt="Creative business poster" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>Business Poster</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/poster-food.jpg" alt="Food and menu poster design" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>Food &amp; Menu Poster</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/event-banner.jpg" alt="Real estate flex banner" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>Real Estate Banner</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/brochure-school.jpg" alt="School brochure interior pages" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>School Brochure</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/brochure-campus.jpg" alt="Campus Champ brochure" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>Campus Champ Brochure</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="branding">
+        <img class="work-photo" src="assets/work/company-profile.jpg" alt="Silverline Hospital company profile" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Branding</span><h4>Hospital Company Profile</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/newspaper-ad.jpg" alt="Silverline hospital newspaper advertisement" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Newspaper Advertisement</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/26.jpg" alt="SSMK Exports visiting cards" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Visiting Cards</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/brochure-trifold-red.jpg" alt="Red trifold brochure design" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>Trifold Brochure</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/brochure-trifold-pink.jpg" alt="Pink trifold brochure design" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>Creative Trifold Brochure</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/poster-child.jpg" alt="Creative child poster design" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>Poster Design</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/poster-institute.jpg" alt="Institute admissions poster" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>Institute Admission Poster</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="design">
+        <img class="work-photo" src="assets/work/brochure-trifold-magenta.jpg" alt="Magenta trifold brochure" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Design</span><h4>Trifold Brochure (Magenta)</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/invitation-card.jpg" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Invitation Card</h4></div>
+      </a>
+      
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/binding/1.jpeg" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Binding</h4></div>
+      </a>
+      
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/binding/6.png" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Binding</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/binding/15.png" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Binding</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/binding/34.png" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Binding</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/binding/36.png" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Binding</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/binding/1.png" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Binding</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/binding/2.jpeg" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Binding</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/binding/3.jpeg" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Binding</h4></div>
+      </a>
+
+      <a href="contact.html" class="work-card" data-category="print">
+        <img class="work-photo" src="assets/work/binding/66.jpg" alt="Tamil Kalpatharu invitation card" loading="lazy" onerror="this.closest('.work-card').classList.add('img-missing')">
+        <div class="work-overlay"><span>Print</span><h4>Binding</h4></div>
+      </a>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- OUR OFFICE / INFRASTRUCTURE -->
+<section class="office-section" id="office">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our Studio</span>
+      <h2 class="section-title">Office &amp; Infrastructure</h2>
+      <p class="section-sub">A look inside our Trichy studio — where every print job, design and bound document comes together.</p>
+    </div>
+
+    <div class="office-grid reveal-stagger">
+      <!-- Slot 1: actual office photo if available -->
+      <div class="office-card">
+        <img src="assets/work/office-1.jpg" alt="Ditto Design studio interior" loading="lazy"
+             onerror="this.parentElement.classList.add('placeholder');this.parentElement.dataset.label='Studio Photo Coming Soon';this.remove()">
+        <div class="office-label">Our Studio</div>
+      </div>
+      <!-- Slots 2–6: placeholders — replace with your actual office photos -->
+      <div class="office-card placeholder" data-label="Add: Printing Equipment">
+        <img src="assets/work/office-2.jpg" alt="Ditto Design studio interior" loading="lazy"
+             onerror="this.parentElement.classList.add('placeholder');this.parentElement.dataset.label='Studio Photo Coming Soon';this.remove()">
+      </div>
+      <div class="office-card placeholder" data-label="Add: Binding Area">
+        <img src="assets/work/office-3.jpg" alt="Ditto Design studio interior" loading="lazy"
+             onerror="this.parentElement.classList.add('placeholder');this.parentElement.dataset.label='Studio Photo Coming Soon';this.remove()">
+      </div>
+      <div class="office-card placeholder" data-label="Add: Design Workstation">
+        <img src="assets/work/office-4.jpg" alt="Ditto Design studio interior" loading="lazy"
+             onerror="this.parentElement.classList.add('placeholder');this.parentElement.dataset.label='Studio Photo Coming Soon';this.remove()">
+      </div>
+      <div class="office-card placeholder" data-label="Add: Finished Work Display">
+        <img src="assets/work/office-5.jpg" alt="Ditto Design studio interior" loading="lazy"
+             onerror="this.parentElement.classList.add('placeholder');this.parentElement.dataset.label='Studio Photo Coming Soon';this.remove()">
+      </div>
+      <div class="office-card placeholder" data-label="Add: Front Office / Reception">
+        <img src="assets/work/office-6.jpg" alt="Ditto Design studio interior" loading="lazy"
+             onerror="this.parentElement.classList.add('placeholder');this.parentElement.dataset.label='Studio Photo Coming Soon';this.remove()">
+      </div>  
+    </div>
+
+    <!-- Studio stats -->
+    <div class="studio-stats reveal-stagger">
+      <div class="studio-stat">
+        <strong>2,400+</strong>
+        <span>Projects completed</span>
+      </div>
+      <div class="studio-stat">
+        <strong>7+ Yrs</strong>
+        <span>In Trichy since 2018</span>
+      </div>
+      <div class="studio-stat">
+        <strong>6</strong>
+        <span>Core services</span>
+      </div>
+      <div class="studio-stat">
+        <strong>100%</strong>
+        <span>On-time delivery</span>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="cta-strip">
+  <div class="container cta-strip-inner">
+    <div>
+      <h2>Like what you see? Let's create yours.</h2>
+      <p>Send your project details on WhatsApp and we'll get back with a quote the same day.</p>
+    </div>
+    <div class="cta-strip-actions">
+      <a href="https://wa.me/919976756627" target="_blank" rel="noopener" class="btn btn-light">
+        <svg viewBox="0 0 24 24" fill="currentColor" style="color:#1FA774"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3a8.2 8.2 0 1 1 6.9 3.7Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.2.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.8 2.8 4.4 3.8.6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3Z"/></svg>
+        Chat on WhatsApp
+      </a>
+      <a href="contact.html" class="btn btn-outline" style="border-color:rgba(255,255,255,.5);color:#fff;">Get a Quote
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" id="footer">
+  <div class="footer-top container">
+    <div class="footer-grid footer-grid-compact">
+      <div class="footer-about">
+        <div class="footer-logo">
+          <img src="assets/logo.png" alt="Ditto Design" class="footer-site-logo">
+        </div>
+        <p>We are a professional printing, designing &amp; binding service provider in Trichy. Our goal is to deliver top quality work with complete customer satisfaction, every single time.</p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/profile.php?id=61575481477857" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12Z"/></svg></a>
+          <a href="https://www.instagram.com/dittodesign.2018?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="https://wa.me/919976756627" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3a8.2 8.2 0 1 1 6.9 3.7Z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="work.html">Our Work</a></li>
+          <li><a href="index.html#reviews">Reviews</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Our Services</h5>
+        <ul>
+          <li><a href="services/designing.html">Designing</a></li>
+          <li><a href="services/printing-services.html">Printing</a></li>
+          <li><a href="services/perfect-binding.html">Binding</a></li>
+          <li><a href="services/designing.html">Lamination</a></li>
+          <li><a href="services/printing-services.html">Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact Info</h5>
+        <ul class="footer-contact">
+          <li><a href="https://maps.app.goo.gl/Ze2u36rK3M3DH5kH7" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-7.4 7-12a7 7 0 1 0-14 0c0 4.6 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg><span>No. 20/56,Ugraa  Tower,  2nd  Floor,  ( Near  Shaans  Hotel),  Thennur  high  Road,  Trichy  -  620  017. Tamil Nadu – INDIA.</span></a></li>
+          <li><a href="tel:+919976756627"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2.1Z"/></svg><span>+91 99767 56627</span></a></li>
+          <li><a href="mailto:dittodesign.2018@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2.5"/><path d="m3 6 9 7 9-7"/></svg><span>dittodesign.2018@gmail.com</span></a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><span>Mon – Sat : 10.00 AM – 7.00 PM</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Ditto Design. All Rights Reserved.</p>
+      <p>Designed with <span class="heart">&hearts;</span> for quality.</p>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/919976756627" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3a8.2 8.2 0 1 1 6.9 3.7Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.2.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.8 2.8 4.4 3.8.6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3Z"/></svg>
+</a>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="main.js"></script>
+</body>
+</html>
